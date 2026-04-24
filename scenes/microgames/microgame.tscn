@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cwbprbptlr6dq"]
+[gd_scene load_steps=3 format=3 uid="uid://clmuqlpi4vgc6"]
 
-[ext_resource type="Script" uid="uid://ck5hh12bx3rpc" path="res://components/microgames/microgame.gd" id="1_jospg"]
-[ext_resource type="FontFile" uid="uid://c5tfph4mxop8c" path="res://assets/fonts/wariowareincv2.ttf" id="2_ileg3"]
+[ext_resource type="Script" uid="uid://dfirdri2uiuxv" path="res://test.gd" id="1_p321n"]
+[ext_resource type="FontFile" uid="uid://c5tfph4mxop8c" path="res://assets/fonts/wariowareincv2.ttf" id="2_gk1be"]
 
-[node name="Microgame" type="Node2D"]
-script = ExtResource("1_jospg")
+[node name="test" type="Node2D"]
+script = ExtResource("1_p321n")
+microgameDescription = "uh"
+microgamePrompt = "something"
+metadata/_custom_type_script = "uid://ck5hh12bx3rpc"
 
 [node name="timer" type="Timer" parent="."]
 autostart = true
@@ -23,7 +26,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 16
-theme_override_fonts/normal_font = ExtResource("2_ileg3")
+theme_override_fonts/normal_font = ExtResource("2_gk1be")
 theme_override_font_sizes/normal_font_size = 64
 bbcode_enabled = true
 text = "test"
@@ -32,5 +35,3 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="camera" type="Camera2D" parent="."]
-
-[connection signal="timeout" from="timer" to="." method="onTimeout"]
