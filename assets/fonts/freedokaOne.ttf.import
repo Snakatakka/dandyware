@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://c5tfph4mxop8c"
-path="res://.godot/imported/wariowareincv2.ttf-0f002349defd5d95bc4b816cab6a8a74.fontdata"
+uid="uid://45jhajffakg3"
+path="res://.godot/imported/freedokaOne.ttf-d0def4eb2b41e99bb3ead0cc8602c70a.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/wariowareincv2.ttf"
-dest_files=["res://.godot/imported/wariowareincv2.ttf-0f002349defd5d95bc4b816cab6a8a74.fontdata"]
+source_file="res://assets/fonts/freedokaOne.ttf"
+dest_files=["res://.godot/imported/freedokaOne.ttf-d0def4eb2b41e99bb3ead0cc8602c70a.fontdata"]
 
 [params]
 
