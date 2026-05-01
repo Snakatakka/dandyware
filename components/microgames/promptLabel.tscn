@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxdn1dqh3do3l"]
+
+[ext_resource type="FontFile" uid="uid://45jhajffakg3" path="res://assets/fonts/freedokaOne.ttf" id="1_x3ct2"]
+
+[node name="promptLabel" type="RichTextLabel"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -255.0
+offset_top = -39.5
+offset_right = 255.0
+offset_bottom = 39.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(255, 39.5)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 16
+theme_override_fonts/normal_font = ExtResource("1_x3ct2")
+theme_override_font_sizes/normal_font_size = 64
+bbcode_enabled = true
+text = "[shake]test[/shake]"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
